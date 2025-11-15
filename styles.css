@@ -1,6 +1,6 @@
 .topheader {
   position: find;
-  background-color: grey;
+  background-color: rgb(160, 160, 160);
   width: 100%;
   height: 80px;
   display: flex;
@@ -20,7 +20,7 @@
   color: black;
 }
 .Menu-Horizontal li a:hover {
-  color: red;
+  color: rgba(255, 174, 0, 0.822);
 }
 .Menu-Vertical {
   padding: 0;
@@ -37,13 +37,13 @@
   color: black;
 }
 .Menu-Vertical li {
-  background-color: lightgray;
+  background-color: rgb(116, 116, 116);
 }
 
 .seccion-formulario {
-  background-color: blue;
+  background-color: rgb(219, 158, 107);
   padding: 40px;
-  border: 3px solid blueviolet;
+  border: 3px solid rgb(66, 38, 15);
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -52,7 +52,7 @@
 }
 
 .div-cont-formulario {
-  background-color: skyblue;
+  background-color: rgb(100, 61, 17);
   padding: 30px;
   border: 2px solid brown;
   border-radius: 8px;
@@ -61,7 +61,7 @@
 }
 
 .campo {
-  background-color: yellowgreen;
+  background-color: rgb(133, 62, 21);
   padding: 15px;
   margin-bottom: 15px;
   border: 1px solid blanchedalmond;
@@ -85,7 +85,7 @@
 
 /* Footer general */
 .footer {
-  background-color: #9c155f; /* Fondo oscuro para contraste */
+  background-color: #303030da; /* Fondo oscuro para contraste */
   color: rgb(255, 255, 255);
   padding: 2rem 1rem;
   font-family: "Roboto", sans-serif;
