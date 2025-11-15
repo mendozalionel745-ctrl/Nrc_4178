@@ -85,8 +85,8 @@
 
 /* Footer general */
 .footer {
-  background-color: #222; /* Fondo oscuro para contraste */
-  color: white;
+  background-color: #9c155f; /* Fondo oscuro para contraste */
+  color: rgb(255, 255, 255);
   padding: 2rem 1rem;
   font-family: "Roboto", sans-serif;
 }
