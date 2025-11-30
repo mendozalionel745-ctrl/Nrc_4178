@@ -11,25 +11,50 @@
 /* RESPONSIVE: MÓVILES */
 @media (max-width: 768px) {
   .menu-toggle {
-    display: block; /* Mostrar botón hamburguesa en móviles */
+    display: block; 
     color: black;
   }
 
   .Menu-Horizontal {
-    display: none; /* Ocultar menú horizontal por defecto */
-    flex-direction: column; /* Mostrarlo en vertical al activarse */
+    display: none; 
+    flex-direction: column; 
     width: 100%;
     background-color: white;
     position: absolute;
-    top: 5rem; /* Debajo del menú fijo */
+    top: 5rem; 
     left: 0;
   }
 
   .Menu-Horizontal.active {
-    display: flex; /* Mostrar menú al activar la clase */
+    display: flex; 
   }
 
   .Menu-Horizontal li {
-    border-bottom: 1px solid #ccc; /* Líneas separadoras */
+    border-bottom: 1px solid #ccc; 
+  }
+
+  .Menu-Horizontal li a {
+    
+    color: rgb(100, 61, 17) !important;
+
+    
+    border: none;
+    border-bottom: 1px solid #ddd; 
+    border-radius: 0;
+
+    
+    display: block; 
+    width: 100%;
+    padding: 15px; 
+    text-align: left; 
+    background-color: white; 
+  }
+
+  
+  .Menu-Horizontal li a:hover {
+    background-color: #f2f2f2; 
+    color: black !important;
+    transform: none;
+    box-shadow: none;
   }
 }
