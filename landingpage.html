@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="menu_toggle.css" />
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <nav class="topheader">
+      <a href="#" class="logo">
+        <img src="logo/logo.svg" alt="Logo" />
+      </a>
+
+      <!-- BOTÓN HAMBURGUESA -->
+      <button class="menu-toggle" aria-label="Abrir menú">
+        &#9776;
+        <!-- Ícono de hamburguesa -->
+      </button>
+
+      <ul class="Menu-Horizontal">
+        <li><a href="#">Promociones</a></li>
+        <li>
+          <a href="#">Soluciones</a>
+          <ul class="Menu-Vertical">
+            <li><a href="#">Servicios financieros</a></li>
+            <li><a href="#">Seguros</a></li>
+            <li><a href="#">Soluciones</a></li>
+            <li><a href="#">Mundo Dinners</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Privilegios</a></li>
+        <li><a href="#">Canales</a></li>
+        <li><a href="#contactanos">Contáctanos</a></li>
+      </ul>
+    </nav>
+
+    <!-- FORMULARIO -->
+    <section class="seccion-formulario" id="contactanos">
+      <div class="div-cont-formulario">
+        <h2>Formulario de Registro</h2>
+        <p>Complete todos los campos</p>
+
+        <form class="formulario">
+          <div class="campo">
+            <label for="nombre">Nombre Completo:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingrese sus nombres"
+            />
+          </div>
+
+          <div class="campo">
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+              <option value="peru">Perú</option>
+              <option value="argentina">Argentina</option>
+              <option value="brazil">Brasil</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label>Intereses:</label>
+            <ul class="lista-checkbox">
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="a"
+                  />Chaufa</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" name="intereses" value="b" />Chaufa de
+                  pollo</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" name="intereses" value="c" />Chaufa
+                  mixto</label
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="campo">
+            <label>Sexo:</label>
+            <ul class="lista-radio">
+              <li>
+                <label
+                  ><input type="radio" name="sexo" value="m" />Masculino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="radio" name="sexo" value="f" />Femenino</label
+                >
+              </li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="seccion-contenido-extra">
+      <div class="contenedor-principal">
+        <article class="bloque-info">
+          <div class="info-texto">
+            <h3>Excelencia en Litigios</h3>
+            <p>
+              En <strong>Hamlin, Hamlin & McGill</strong>, entendemos que la
+              reputación lo es todo. Bajo el liderazgo de Howard Hamlin y el
+              legado de Charles McGill, ofrecemos una representación legal
+              inigualable en Albuquerque.
+            </p>
+            <p>
+              Desde grandes demandas corporativas hasta la defensa de sus
+              intereses personales, nuestro equipo de asociados trabaja
+              incansablemente para asegurar la victoria. No deje su futuro en
+              manos de abogados de dudosa procedencia; elija la excelencia.
+              Elija HHM
+            </p>
+          </div>
+          <div class="info-media">
+            <img
+              src="https://pbs.twimg.com/profile_images/1553341255425445888/0ENfewGY_400x400.jpg"
+              alt="hhm logo"
+            />
+          </div>
+        </article>
+
+        <article class="bloque-info bloque-invertido">
+          <div class="info-texto">
+            <h3>El Sabor de la Familia</h3>
+            <p>
+              Después de un largo día en la corte, usted merece algo especial.
+              En
+              <strong>Los Pollos Hermanos</strong>, nos enorgullece servir el
+              mejor pollo frito, preparado lentamente con nuestra receta
+              familiar secreta llena de especias.
+            </p>
+            <p>
+              Nuestro propietario, <strong>Gustavo Fring</strong>, garantiza
+              personalmente que cada visita sea impecable. Ingredientes frescos,
+              servicio amable y un ambiente donde siempre hay alguien cuidando
+              de usted. ¡Es delicioso!
+            </p>
+          </div>
+          <div class="info-media">
+            <div class="video-responsive">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/B9RgougnhiE?si=Yel7xSQAI00zvKav"
+                title="YouTube "
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- PIE DE PAGINA -->
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre -->
+          <div class="footer-brand">
+            <img
+              src="https://cdn.prod.website-files.com/6321c93833a8642394a5d024/6399e68c44be45ca0234075d_HHM.png"
+              alt="Logo"
+              class="footer-logo"
+            />
+            <p>HHM</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/obtenerDocumento.pdf">
+              Política de Privacidad
+            </a>
+            <a href="#">Términos y Condiciones</a>
+            <a href="/Documentos/LeyProteccionDatos.pdf">
+              Protección de Datos
+            </a>
+          </div>
+
+          <!-- Redes sociales -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+
+            <a href="#">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+              />
+            </a>
+
+            <a href="#">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+              />
+            </a>
+
+            <a href="#">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+              />
+            </a>
+
+            <a href="#">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+              />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script src="menu_toggle.js"></script>
+  </body>
+</html>
